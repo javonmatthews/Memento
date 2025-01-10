@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Memento",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "host_permissions": ["*://www.reddit.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.reddit.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "Extended-protection-shackle-clock.svg.png" 
+  }
+}
