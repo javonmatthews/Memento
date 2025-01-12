@@ -2,7 +2,11 @@
   "manifest_version": 3,
   "name": "Memento",
   "version": "1.0",
-  "permissions": ["storage"],
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "incognito": "spanning",
   "host_permissions": ["*://www.reddit.com/*"],
   "content_scripts": [
     {
