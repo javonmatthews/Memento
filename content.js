@@ -24,7 +24,7 @@ const monitorTime = setInterval(() => {
     overlay.style.left = '0';
     overlay.style.width = '100%';
     overlay.style.height = '100%';
-    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'; // Dark background
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 1.0)'; // Dark background
     overlay.style.display = 'flex';
     overlay.style.justifyContent = 'center';
     overlay.style.alignItems = 'center';
